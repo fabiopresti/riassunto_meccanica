@@ -65,10 +65,10 @@
 \contentsline {subsection}{\numberline {9.5}Energia del sistema a due corpi e traiettoria ellittica}{44}{}%
 \contentsline {subsection}{\numberline {9.6}La terza legge di Keplero rivista}{45}{}%
 \contentsline {subsection}{\numberline {9.7}Generalizzazione del rapporto tra energia e traiettoria}{46}{}%
-\contentsline {subsection}{\numberline {9.8}La collisione fra due corpi in orbita}{48}{}%
+\contentsline {subsection}{\numberline {9.8}La collisione fra due corpi in orbita}{49}{}%
 \contentsline {subsection}{\numberline {9.9}La dinamica di razzi}{49}{}%
 \contentsline {section}{\numberline {10}La dinamica dei corpi rigidi}{50}{}%
-\contentsline {subsection}{\numberline {10.1}Teorema di Huygens-Steiner o degli assi paralleli}{51}{}%
+\contentsline {subsection}{\numberline {10.1}Teorema di Huygens-Steiner o degli assi paralleli}{52}{}%
 \contentsline {subsection}{\numberline {10.2}Il momento d'inerzia di figure semplici}{52}{}%
 \contentsline {subsubsection}{\numberline {10.2.1}Esempio di applicazione}{53}{}%
 \contentsline {subsection}{\numberline {10.3}Il moto di puro rotolamento}{53}{}%
@@ -76,7 +76,7 @@
 \contentsline {subsubsection}{\numberline {10.4.1}L'asta rigida e il pendolo semplice a confronto}{55}{}%
 \contentsline {subsection}{\numberline {10.5}Energia cinetica di un corpo rigido e calcolo del momento d'inerzia in corpi complessi}{56}{}%
 \contentsline {subsection}{\numberline {10.6}Equilibrio stabile ed instabile}{56}{}%
-\contentsline {subsection}{\numberline {10.7}Il momento angolare di un corpo in rotazione rispetto ai tre assi}{56}{}%
+\contentsline {subsection}{\numberline {10.7}Il momento angolare di un corpo in rotazione rispetto ai tre assi}{57}{}%
 \contentsline {section}{\numberline {11}Principio copernicano esteso}{57}{}%
 \contentsline {subsection}{\numberline {11.1}Invarianza per traslazione e rotazione}{57}{}%
 \contentsline {subsection}{\numberline {11.2}La riflessione}{58}{}%

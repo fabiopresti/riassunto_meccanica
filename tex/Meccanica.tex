@@ -10,8 +10,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{makeidx}
+\usepackage{placeins}
 \usepackage{graphicx}
-
 \makeatletter
 
 \newcommand{\newparallel}{\mathrel{\mathpalette\new@parallel\relax}}
@@ -42,7 +42,7 @@
 	
 	\vfill
 
-	\includegraphics[width=0.6\textwidth]{noi}\\
+	\includegraphics[width=0.6\textwidth]{../images/noi}\\
 	\vspace{2cm}
 	\Large
 	Fisica\\
@@ -490,10 +490,11 @@ Cambiamo nuovamente la variabile $x$
 Quest'ultima è l'equazione della velocità di un corpo in caduta in un fluido, è possibile così tracciare l'intero grafico "velocità su tempo", ci si rende conto che le previsioni fatte corrispondono con lo studio di funzione.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{FluidFriction}
+	\includegraphics[width=0.7\linewidth]{../images/FluidFriction}
 	\caption[Figura 1:]{Grafico "velocità su tempo" con indicate le rette-limite.}
 	\label{fig:fluidfriction}
 \end{figure}
+\FloatBarrier
 \subsection{Generalizzazione del metodo}
 Come visto, il moto del pendolo semplice e quello della molla presentano molte somiglianze: entrambi sono periodici, e le relative leggi orarie sono ottenibili dalla risoluzione di un'equazioni differenziali del tutto analoghe. Generalizziamo quanto visto dicendo che, se un corpo si muove a causa di forze del tipo
 \begin{align}\label{eq:differenziale}
@@ -585,9 +586,9 @@ Consideriamo la forza d'attrito dinamica
 Per semplicità, consideriamo solamente gli assi x, y. Vogliamo calcolare il lavoro sul percorso (1) e sul percorso (2), che partono entrambi dal punto A per arrivare al punto B ma con percorsi differenti. Supponiamo $A = (0,0),\ B = (x_b,y_b),\ C= (x_c,0)$ con $x_b = x_c$.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"Screenshot 2021-11-12 015249"}
+	\includegraphics[width=0.5\linewidth]{../images/"Screenshot 2021-11-12 015249"}
 	\label{fig:screenshot-2021-11-12-015249}
-\end{figure}
+\end{figure}\FloatBarrier
 \begin{align*}
 L_1 =& L_{AC}+L_{CB} = \int_{0}^{x_c} (-\mu_d mg) dx + \int_{0}^{y_b} (-\mu_d mg) dy=\\
 &(-\mu_d mg [x_c-0])+(-\mu_d mg [y_b-0]) = -\mu_d mg(x_c+y_b)\\
@@ -806,10 +807,10 @@ Anche in questo caso si è verificato sperimentalmente che in un sistema isolato
 Il lettore attento avrà notato che nella sezione sui principi della dinamica ne sono stati esposti solamente due, omettendo il terzo, che formulò lo stesso Newton con il nome di "principio di azione e reazione", l'enunciato è: \textit{Per ogni forza che un corpo A esercita su un altro corpo B, ne esiste un'altra uguale, in modulo e direzione, e contraria in verso, che B esercita su A}. La scelta di omettere il terzo principio è stata fatta perché questo deriva direttamente dai due principi appena esposti di conservazione della quantità di moto e del momento angolare. Infatti, se la somma delle forze di un sistema è sempre uguale a zero, allora applicando una forza, ne dovrà sicuramente esistere un'altra che la annulli (e dunque uguale in modulo e direzione e contraria in verso), in modo da mantenere l'equilibrio. Serve però fare un'ulteriore precisazione. Consideriamo due corpi, ad esempio un grave G e la Terra, che formano un sistema isolato. Il grave, cadendo sulla Terra esercita una forza in direzione del centro del pianeta stesso.Per il principio di conservazione della quantità di moto la somma delle forze è uguale a zero, quindi la Terra dovrà esercitare sul grave una forza uguale e contraria a quella del grave, sempre in direzione verticale. La somma vettoriale delle forze è nulla, in linea con il principio appena esposto. Consideriamo però un sistema grave-Terra in cui il vettore forza peso del grave è inclinato di un'angolo $\theta$ rispetto al suolo e il vettore forza di reazione vincolare ha direzione parallela ma non coincidente a quella della forza peso, modulo uguale e verso opposto.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"Screenshot 2021-11-12 215042"}
+	\includegraphics[width=0.5\linewidth]{../images/"Screenshot 2021-11-12 215042"}
 	\caption{Entrambi i sistemi rispettano il principio di conservazione della quantità di moto ma il secondo non rispetta il principio di conservazione del momento angolare.}
 	\label{fig:screenshot-2021-11-12-215042}
-\end{figure}
+\end{figure}\FloatBarrier
 \'{E} chiaro che uno scenario come il secondo è impossibile in natura, questo perché il principio di azione e reazione non si limita alla conservazione della quantità di moto ma deve tenere conto anche della conservazione del momento angolare. Nel primo caso, visto che il grave cade verticalmente la distanza dal polo è zero e il momento angolare è nullo, il principio è rispettato. Analizziamo ora il secondo caso
 \begin{align*}
 \begin{cases}
@@ -850,12 +851,12 @@ Se aggiungiamo un nuovo punto materiale, slegato dal primo, necessitiamo di $3+3
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\linewidth]{"Screenshot 2021-11-13 161007"}
-	\includegraphics[width=0.15\textwidth]{"Screenshot 2021-11-13 161243"}
+	\includegraphics[width=0.4\linewidth]{../images/"Screenshot 2021-11-13 161007"}
+	\includegraphics[width=0.15\textwidth]{../images/"Screenshot 2021-11-13 161243"}
 	\label{fig:screenshot-2021-11-13-161007}
-	\includegraphics[width=0.15\linewidth]{"Screenshot 2021-11-13 161431"}
+	\includegraphics[width=0.15\linewidth]{../images/"Screenshot 2021-11-13 161431"}
 	\label{fig:screenshot-2021-11-13-161431}
-\end{figure}
+\end{figure}\FloatBarrier
 Notiamo che tutti i sistemi formati da più di tre punti materiali hanno lo stesso numero di gradi di libertà (6) perché per aggiungere un punto materiale a distanza fissa da tutti gli altri (3 o più) basta stabilire altri tre vincoli e allora i gradi di libertà aggiunti saranno uguali a quelli sottratti. Ne deriva che per descrivere il moto di un corpo complesso (tutti quelli reali) servono 6 equazioni.
 \subsection{Le proprietà del centro di massa}
 Sappiamo quindi che per descrivere un sistema fisico occorrono 6 equazioni scalari, che deriveranno da due equazioni vettoriali (3 ciascuna). Per descrivere il moto di un sistema rigido in cui non avvengono rotazioni (moto di traslazione), è sufficiente studiare il moto del suo centro di massa che, essendo un punto materiale, ha 3 d.o.f. Questa equazione vettoriale, come vedremo, deriva dal principio di conservazione della quantità di moto applicato ai sistemi di corpi. Se però sono presenti rotazioni, entrano in gioco i momenti della forza e angolare, non sarà più possibile ridurre il moto del sistema a quello di un punto materiale e si torneranno ad avere 6 d.o.f. Le 3 ulteriori equazioni scalari derivano dal principio di conservazione del momento angolare applicato ai sistemi.\\
@@ -1228,10 +1229,11 @@ Essendo una forza conservativa siamo sicuri dell'esistenza di una funzione di en
 Dove B è una costante integrativa che si elimina sempre nel calcolo del lavoro in quanto differenza di energie potenziali. \\
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.35\linewidth]{"lavoro gravitazionale"}
+	\includegraphics[width=0.35\linewidth]{../images/"lavoro gravitazionale"}
 	\caption{Lavoro della forza gravitazionale in un percorso chiuso}
 	\label{fig:lavoro-gravitazionale}
-\end{figure}\\
+\end{figure}
+\FloatBarrier
 \newpage
 \subsubsection{Forza di gravitazione e forza peso}
 \'{E} intuitivo pensare che forza peso e forza gravitazionale siano identiche ma espresse in forme diverse, conosciamo entrambe le formule di energia potenziale, cerchiamo di ottenere quella potenziale a partire da quella di gravitazione. Dalle considerazioni fatte in precedenza, sappiamo che ogni corpo ha distanza dal centro di massa della terra pari al raggio della terra più l'altezza $z$ a cui si trova, sostituiamo questa quantità ad r nell'energia potenziale appena trovata.
@@ -1327,10 +1329,10 @@ Visto che il momento angolare è un vettore assiale per definizione ha direzione
 Possiamo ottenere lo stesso risultato studiando il problema in coordinate polari al posto di quelle cartesiane. \\
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.4\linewidth]{polarcoordinates}
+	\includegraphics[width=0.4\linewidth]{../images/polarcoordinates}
 	\caption{Versori $\hat{i}$ e $\hat{j}$ cartesiani e versori posizione e angolo $\hat{r}$ e $\varphi$}
 	\label{fig:polarcoordinates}
-\end{figure}\\
+\end{figure}\FloatBarrier
 In figura il vettore $\hat{\varphi}$, che si dovrebbe trovare applicato sul corpo in movimento, è stato traslato per rendere più chiari i passaggi ma ciò non cambia il livello concettuale di quanto faremo. \'{E} stato inoltre omesso il versore $\hat{k}$, che, come visto, è sempre costante.\\
 Effettuare il passaggio in coordinate polari equivale ad esprimere i versori $\hat{r}$ e $\hat{\varphi}$ in funzione dei versori $\hat{i}$ e $\hat{j}$ e dell'angolo $\varphi$ (si noti che l'angolo $\varphi$ è uguale al modulo del vettore $\vec{\varphi}$). Per far ciò, come risulta evidente in figura, basta effettuare una rotazione dei versori $\hat{i}$ e $\hat{j}$ di un angolo $\varphi$. Per far ciò ci avvaliamo della matrice di rotazione
 \begin{align*}
@@ -1481,10 +1483,10 @@ Ora, conoscendo il valore di a, ricavato a inizio sezione, sostituiamola in ques
 Ecco ricavato che il semiasse maggiore dipende dall'energia meccanica del sistema. Il semiasse maggiore però non basta per identificare l'ellisse descritta dalla traiettoria, infatti esistono infinite ellissi con il medesimo semiasse maggiore (e quindi con la stessa energia).\\
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.3\linewidth]{molte_ellissi}
+	\includegraphics[width=0.3\linewidth]{../images/molte_ellissi}
 	\caption{Infinite traiettorie ellittiche sono associate ad un unico valore di energia meccanica totale del sistema. Per individuare un'unica ellisse non basta solamente il semiasse maggiore.}
 	\label{fig:molteellissi}
-\end{figure}\\
+\end{figure}\FloatBarrier
 Per individuare un'unica ellisse ci occorre stabilire anche un valore per il semiasse minore $b$.
 Per farlo, eguagliamo la (\ref{eq:eccentricità}) con la definizione di eccentricità vista a inizio paragrafo, in cui sostituiamo il valore di $a$ ottenuto.
 \begin{align*}
@@ -1527,28 +1529,29 @@ Questa è formata da un termine repulsivo, con segno sempre positivo (o al massi
 In questo caso, visto che $L = \mu r^2 \dot{\varphi} \sin(\theta) =  \mu r v \sin(\theta) $ ne deduciamo che $\dot{\varphi}\neq 0$, dunque il moto è affetto da una rotazione e, come dimostrato, descrive una conica. Inoltre possiamo individuare il valore $b$, detto \textbf{parametro d'impatto} che rappresenta la minima distanza tra il sole (corpo di massa M) e la retta che percorrerebbe un corpo di massa m, senza l'influenza dell'attrazione del sole.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{meteorite}
+	\includegraphics[width=0.5\linewidth]{../images/meteorite}
 	\caption{Grafico esplicativo del parametro d'impatto}
 	\label{fig:meteorite}
-\end{figure}\\
+\end{figure}
+\FloatBarrier
 Si noti che, essendo $L$ costante e diverso da zero per ipotesi, il valore di $b$ non può raggiungere zero, a meno che non vi siano forze esterne non conservative come l'attrito (caso che tratteremo più avanti), un meteorite dunque non può cadere sulla terra in una condizione del genere se approssimiamo i corpi come puntiformi. Se invece il corpo ha un raggio diverso da zero avremo che l'impatto avviene se il raggio è maggiore del parametro d'impatto.\\
 Ora, riferendoci al grafico, svolgiamo alcune considerazioni sul segno di $U_{eff}$ e quindi su quello di $E_m$, per poi ricavare informazioni generali sul moto del corpo. Visto che l'energia è costante e al perielio è uguale all'energia potenziale efficace, per determinare il segno dell'energia basterà studiare la curva di $U_{eff}$.\\
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{potenziale_efficace}
+	\includegraphics[width=0.5\linewidth]{../images/potenziale_efficace}
 	\caption{Grafico qualitativo delle due componenti del potenziale efficace (blu e verde) e del potenziale efficace (arancione). Sull'asse x i valori di r, sulle y $U_{eff}$}
 	\label{fig:potenzialeefficace}
-\end{figure}\\
+\end{figure}\FloatBarrier
 Possiamo distinguere tre casi, a seconda del valore che assume l'energia. Per $r$ piccoli, domina il termine positivo, $U_{eff}$ è positiva e dunque $E > 0$. La retta dell'energia (costante)  interseca $U_{eff}$ in un solo punto, che è la distanza minima possibile tra i due corpi. Riferendosi all'espressione dell'eccentricità in funzione dell'energia, si ha che la traiettoria descritta è iperbolica. Se $E = 0$ invece l'orbita è parabolica (il valore minimo di E per cui si interseca una sola volta $U_{eff}$). Se invece l'energia è minore di zero, la retta intersecherà la curva in due punti: $r_{min}$ ed $r_{max}$, ovvero i punti entro i quali è contenuta la traiettoria del corpo, che evidentemente sarà ellittica. Infine, quando la retta $E<0$ interseca $U_{eff}$ nel suo punto inferiore, quando $U_{eff}$ è minima, si ha che $r_{min}=r_{max}$, ovvero un'orbita circolare. 
 \subsubsection*{Il caso limite, le orbite degeneri: L = 0}
 Se $L=0$, ricordando $L = \mu r^2 \dot{\varphi}$, ne segue che $\dot{\varphi} = 0$ (non ha senso che massa e raggio siano nulli). Ricordiamo che $\dot{\varphi}$ rappresenta la velocità angolare; essendo nulla il moto del corpo è radiale, cioè si muove in linea retta attratto da un'altro corpo.
 In questo caso la prima componente si annulla e $U_{eff} = \frac{-\alpha}{r}$.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{U_eff1}
+	\includegraphics[width=0.5\linewidth]{../images/U_eff1}
 	\caption{Grafico qualitativo dell'energia potenziale efficace per $L=0$.}
 	\label{fig:ueff1}
-\end{figure}
+\end{figure}\FloatBarrier
 Se l'energia è positiva, il termine $\frac{1}{2}\mu \dot{r}^2$ avrà prevalso su $U_{eff}$, dal grafico notiamo che la retta dell'energia (parallela all'asse x poiché costante) non interseca mai la curva dell'energia potenziale, ciò vuol dire che la distanza $r$ fra i due corpi può assumere qualsiasi valore positivo. In termini pratici, il corpo si muove in linea retta e, se ha velocità negativa (in direzione dell'altro corpo), allora vi si scontrerà, se invece ha velocità positiva (si sta allontanando dall'altro corpo, come se stessimo lanciando un sasso dalla terra verso fuori) allora il corpo si allontanerà all'infinito; in ognuno dei due casi la distanza fra i due corpi può assumere qualsiasi valore positivo.\\
 Se l'energia è nulla e la velocità negativa, il corpo cade sull'altro, se invece la velocità è positiva, il corpo ha l'energia minima per allontanarsi dall'altro corpo all'infinito, lo farà dunque con la minima velocità possibile.\\
 Se l'energia è negativa, la retta dell'energia interseca in un solo punto la curva di $U_{eff}$, ciò vuol dire che esiste un valore massimo di distanza che il corpo può raggiungere, in termini pratici, se la velocità ha verso positivo il corpo si allontana (sempre il linea retta) fino a raggiungere la distanza $r_{max}$ per poi tornare indietro con velocità cambiata di segno e colpire l'altro corpo. Il caso con energia negativa e verso positivo invece non è fisico perché è come se il corpo proveniente dall'infinito verso la terra la supera (assurdo) arriva ad una distanza massima e poi torna indietro.\\\\
@@ -1556,11 +1559,11 @@ Se l'energia è negativa, la retta dell'energia interseca in un solo punto la cu
 Riassumendo, se $E \geq 0$, l'energia cinetica prevale su quella potenziale e il corpo meno massiccio scappa dall'orbita dell'altro, descrivendo traiettorie ellittiche (se $E \neq 0$), paraboliche (se $E = 0$) o rette, nel caso limite ($L= 0$), in cui come visto si può avere lo scontro dei due corpi. Se invece $E < 0$, prevale l'energia potenziale su quella cinetica, il corpo meno massiccio rimane bloccato nell'orbita dell'altro, descrivendo orbite ellittiche ($L \neq 0$) o, nel caso limite ($L= 0$), un segmento in cui si ha con certezza la collisione dei due corpi. 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{iperbole} \quad
-	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{parabola} \quad
-	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{ellipse} \quad
-	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{semiretta} \quad 
-	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{Segment}
+	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{../images/iperbole} \quad
+	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{../images/parabola} \quad
+	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{../images/ellipse} \quad
+	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{../images/semiretta} \quad 
+	\includegraphics[width=0.175\linewidth, height=0.085\textheight]{../images/Segment}
 	\caption{Da sinistra: \newline 
 $\begin{cases}
 	E > 0\\
@@ -1589,7 +1592,7 @@ $\begin{cases}
 \end{cases}$
 }
 	\label{fig:parabola}
-\end{figure}
+\end{figure}\FloatBarrier
 \subsection{La collisione fra due corpi in orbita}
 Abbiamo visto che nel caso in cui $L = 0$ o se il parametro d'impatto è minore del raggio, i due corpi collidono. L'eventualità che un corpo, come un meteorite, colpisca la terra è improbabile visto che il rapporto fra spazio vuoto e superficie terrestre è estremamente alto. Tuttavia esiste un'altro caso in cui due corpi possono collidere dovuto alla presenza di forze non conservative come quella d'attrito. Si consideri la seguente situazione: un corpo di massa m segue un'orbita ellittica attorno ad un'altro di massa M (con $M >> m$), durante la sua traiettoria entra in contatto con polveri e gas che generano attrito, l'energia meccanica è trasformata in calore e, dunque, dissipata ($\frac{dE}{dt}<0$). Inizialmente, essendo l'orbita ellittica e non degenere, abbiamo $E < 0$, $L\neq0$. Se però l'energia diminuisce nel tempo, ricordando la relazione fra energia e semiasse maggiore, avremo che l'energia varia in funzione di a ed a varia in funzione del tempo.
 \begin{align*}
