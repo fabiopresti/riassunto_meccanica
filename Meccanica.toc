@@ -1,0 +1,85 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Cinematica}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Introduzione}{3}{}%
+\contentsline {subsection}{\numberline {1.2}L'equazione del moto}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Velocità}{3}{}%
+\contentsline {subsection}{\numberline {1.4}Accelerazione}{4}{}%
+\contentsline {section}{\numberline {2}Applicazioni della cinematica}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Moto rettilineo uniforme}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Moto rettilineo uniformemente accelerato}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Moto parabolico}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Moto circolare uniforme}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Moto circolare non uniforme}{8}{}%
+\contentsline {section}{\numberline {3}Le leggi della dinamica}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Primo Principio}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Secondo Principio}{8}{}%
+\contentsline {section}{\numberline {4}Applicazioni delle leggi della dinamica}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Il pendolo semplice e la forza peso}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Le molle e la forza elastica}{10}{}%
+\contentsline {subsection}{\numberline {4.3}Forza d'attrito radente}{11}{}%
+\contentsline {subsection}{\numberline {4.4}Forza d'attrito viscoso}{13}{}%
+\contentsline {subsection}{\numberline {4.5}Generalizzazione del metodo}{14}{}%
+\contentsline {section}{\numberline {5}Lavoro ed energia meccanica}{15}{}%
+\contentsline {subsection}{\numberline {5.1}Il lavoro}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Lavoro della forza peso}{16}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Lavoro della forza elastica}{16}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Lavoro della forza d'attrito per sfregamento}{17}{}%
+\contentsline {subsection}{\numberline {5.2}L'energia meccanica}{18}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Teorema delle forze vive o dell' energia cinetica}{18}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Energia potenziale}{18}{}%
+\contentsline {subsection}{\numberline {5.3}Il lavoro di forze non conservative}{19}{}%
+\contentsline {section}{\numberline {6}Gradiente, divergenza e rotore}{19}{}%
+\contentsline {subsection}{\numberline {6.1}Esempio di applicazione: le forze centrali}{20}{}%
+\contentsline {subsection}{\numberline {6.2}Esempio di applicazione: stabilire se una forza è conservativa}{21}{}%
+\contentsline {section}{\numberline {7}Dinamica dei sistemi}{21}{}%
+\contentsline {subsection}{\numberline {7.1}Il momento della forza}{22}{}%
+\contentsline {subsection}{\numberline {7.2}La quantità di moto}{22}{}%
+\contentsline {subsection}{\numberline {7.3}Il momento della quantità di moto o momento angolare}{23}{}%
+\contentsline {subsection}{\numberline {7.4}Il terzo "principio" della dinamica}{23}{}%
+\contentsline {subsection}{\numberline {7.5}Il centro di massa}{24}{}%
+\contentsline {subsection}{\numberline {7.6}Il moto di un sistema e i gradi di libertà}{25}{}%
+\contentsline {subsection}{\numberline {7.7}Le proprietà del centro di massa}{25}{}%
+\contentsline {subsubsection}{\numberline {7.7.1}Prima proprietà}{26}{}%
+\contentsline {subsubsection}{\numberline {7.7.2}Seconda proprietà}{26}{}%
+\contentsline {subsubsection}{\numberline {7.7.3}Terza proprietà}{26}{}%
+\contentsline {subsubsection}{\numberline {7.7.4}Quarta proprietà}{27}{}%
+\contentsline {subsubsection}{\numberline {7.7.5}Quinta proprietà}{27}{}%
+\contentsline {subsubsection}{\numberline {7.7.6}Sesta proprietà}{28}{}%
+\contentsline {subsection}{\numberline {7.8}Le equazioni cardinali}{28}{}%
+\contentsline {subsection}{\numberline {7.9}Gli urti}{29}{}%
+\contentsline {section}{\numberline {8}Dinamica di sistemi di riferimento non inerziali}{29}{}%
+\contentsline {subsection}{\numberline {8.1}Esempi di forze in sistemi di riferimento non inerziali}{31}{}%
+\contentsline {section}{\numberline {9}La gravitazione universale}{32}{}%
+\contentsline {subsection}{\numberline {9.1}La forza gravitazionale}{34}{}%
+\contentsline {subsection}{\numberline {9.2}Considerazioni sulla forza di gravitazione universale}{35}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}Massa inerziale e massa gravitazionale}{35}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}La forza di gravitazione è conservativa?}{36}{}%
+\contentsline {subsubsection}{\numberline {9.2.3}Forza di gravitazione e forza peso}{37}{}%
+\contentsline {subsubsection}{\numberline {9.2.4}Velocità di fuga e buchi neri}{37}{}%
+\contentsline {subsection}{\numberline {9.3}L'esperimento di Cavendish}{38}{}%
+\contentsline {subsection}{\numberline {9.4}Deduzione delle leggi di Keplero}{39}{}%
+\contentsline {subsubsection}{\numberline {9.4.1}Prima legge}{41}{}%
+\contentsline {subsubsection}{\numberline {9.4.2}Seconda legge}{43}{}%
+\contentsline {subsubsection}{\numberline {9.4.3}Terza legge}{43}{}%
+\contentsline {subsection}{\numberline {9.5}Energia del sistema a due corpi e traiettoria ellittica}{44}{}%
+\contentsline {subsection}{\numberline {9.6}La terza legge di Keplero rivista}{45}{}%
+\contentsline {subsection}{\numberline {9.7}Generalizzazione del rapporto tra energia e traiettoria}{46}{}%
+\contentsline {subsection}{\numberline {9.8}La collisione fra due corpi in orbita}{48}{}%
+\contentsline {subsection}{\numberline {9.9}La dinamica di razzi}{49}{}%
+\contentsline {section}{\numberline {10}La dinamica dei corpi rigidi}{50}{}%
+\contentsline {subsection}{\numberline {10.1}Teorema di Huygens-Steiner o degli assi paralleli}{51}{}%
+\contentsline {subsection}{\numberline {10.2}Il momento d'inerzia di figure semplici}{52}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}Esempio di applicazione}{53}{}%
+\contentsline {subsection}{\numberline {10.3}Il moto di puro rotolamento}{53}{}%
+\contentsline {subsection}{\numberline {10.4}Forze parallele e baricentro}{54}{}%
+\contentsline {subsubsection}{\numberline {10.4.1}L'asta rigida e il pendolo semplice a confronto}{55}{}%
+\contentsline {subsection}{\numberline {10.5}Energia cinetica di un corpo rigido e calcolo del momento d'inerzia in corpi complessi}{56}{}%
+\contentsline {subsection}{\numberline {10.6}Equilibrio stabile ed instabile}{56}{}%
+\contentsline {subsection}{\numberline {10.7}Il momento angolare di un corpo in rotazione rispetto ai tre assi}{56}{}%
+\contentsline {section}{\numberline {11}Principio copernicano esteso}{57}{}%
+\contentsline {subsection}{\numberline {11.1}Invarianza per traslazione e rotazione}{57}{}%
+\contentsline {subsection}{\numberline {11.2}La riflessione}{58}{}%
+\contentsline {section}{\numberline {12}Il decadimento radioattivo}{58}{}%
+\contentsline {section}{\numberline {13}Appendice}{59}{}%
+\contentsline {subsection}{\numberline {13.1}Le coniche}{59}{}%
