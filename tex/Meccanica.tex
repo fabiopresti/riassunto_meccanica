@@ -1099,13 +1099,17 @@ Consideriamo un pendolo semplice di massa m fissato al tetto del treno, questo f
 \Rightarrow &\tan\theta=\frac{a_M}{g}
 \end{align*}
 \subsubsection*{Moto circolare uniforme e moto terrestre}
-Si consideri un corpo di massa m in moto circolare uniforme, come sappiamo, per far avvenire questo tipo di moto è necessaria l'esistenza di una forza centripeta che produce un'accelerazione $a_c=-\omega^2r$ sul corpo verso il centro della circonferenza su cui ruota. Per un'osservatore solidale al corpo in rotazione tuttavia questa forza risulterà essere diretta verso l'esterno, dunque sentirà un'accelerazione di modulo $a'=-a_c=\omega^2r$. Questa forza fittizia percepita dipende solamente dal sistema di riferimento adottato e non è altro che la \textbf{forza centrifuga} di cui sopra.\\
-L'accelerazione centrifuga è percepibile per l'uomo sulla terra se ha valori dell'ordine di grandezza della forza di gravità, visto che la terra ruota attorno al suo asse di moto approssimabile a quello circolare uniforme, è possibile calcolare l'entità di questa accelerazione. 
+Si consideri un corpo di massa m in moto circolare uniforme, come sappiamo, per far avvenire questo tipo di moto è necessaria l'esistenza di una forza centripeta che produce un'accelerazione $a_c=-\omega^2r$ sul corpo verso il centro della circonferenza su cui ruota. Per un'osservatore solidale al corpo in rotazione tuttavia questa forza risulterà essere diretta verso l'esterno, dunque sentirà un'accelerazione di modulo $a'=-a_c=\omega^2r$. Questa forza fittizia percepita dipende solamente dal sistema di riferimento adottato e non è altro che la \textbf{forza centrifuga} di cui sopra. Il raggio r che compare in queste formule non è il raggio della terra ($R_T$) ma il raggio della circonferenza descritta dal corpo in rotazione. In altre parole, la forza centrifuga dipende dalla latitudine e la formula generale è
+\begin{align*}
+a'=\omega^2 r = omega^2 R_T \cos(\theta)
+\end{align*}
+Dove $\theta$ è l'angolo compreso fra il piano dell'equatore e il vettore posizione del corpo in movimento.\\
+L'accelerazione centrifuga è percepibile per l'uomo sulla terra se ha valori dell'ordine di grandezza della forza di gravità, visto che la terra ruota attorno al suo asse di moto approssimabile a quello circolare uniforme, è possibile calcolare l'entità di questa accelerazione. Prendiamo il valore massimo che questa assume dunque consideriamo $r = R_T$ ovvero calcoliamo la forza centrifuga all'equatore. 
 \begin{align*}
 	&\omega = \frac{2\pi}{T}= \frac{2\pi}{24\ h} = \frac{2\pi}{86400}= 7.272\cdot 10^{-5}\ s^{-1}\\
 	&a'=\omega^2 R_T=7.272\cdot 10^{-5}\cdot 6378000 = 0.033\ \frac{m}{s^2}
 \end{align*}
-Che quindi è impercettibile ai sensi umani. 
+Che quindi è impercettibile ai sensi umani.
 \subsubsection*{Moto terrestre e forza di Coriolis}
 Già Aristarco da Samo (III secolo a.C.) ipotizzò il moto rotatorio della  terra, il primo esperimento (1790) che lo dimostrò fu quello di Giovanni Battista Guglielmini (1760-1817) che calcolò l'accelerazione di Coriolis ($\vec{a}_{co}$) che modifica la traiettoria di un corpo in caduta libera. In particolare, fece cadere un grave dalla Torre degli Asinelli, a Bologna (latitudine 45\textdegree N), alta 97 m. Scelse un sistema di riferimento che ha nell'asse x la direzione sud-nord, nell'asse y est-ovest e nell'asse z basso-alto. Scriviamo la velocità di caduta del grave e la velocità angolare della rotazione terrestre (in funzione della latitudine $\lambda$) e calcoliamo l'espressione dell'accelerazione di Coriolis:
 \begin{align*}
